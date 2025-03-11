@@ -1,109 +1,106 @@
 {
-    "primary_key": "account_id",
-    "columns": {
-        "account_id": {
-            "sdtype": "id"
-        },
-        "amount": {
-            "sdtype": "numerical",
-            "computer_representation": "Float"
-        },
-        "duration": {
-            "sdtype": "numerical",
-            "computer_representation": "Float"
-        },
-        "status": {
-            "sdtype": "numerical",
-            "computer_representation": "Int64"
-        },
-        "balance": {
-            "sdtype": "numerical",
-            "computer_representation": "Float"
-        },
-        "min_balance": {
-            "sdtype": "numerical",
-            "computer_representation": "Float"
-        },
-        "std_balance": {
-            "sdtype": "numerical",
-            "computer_representation": "Float"
-        },
-        "max_balance": {
-            "sdtype": "numerical",
-            "computer_representation": "Float"
-        },
-        "last_balance": {
-            "sdtype": "numerical",
-            "computer_representation": "Float"
-        },
-        "credits": {
-            "sdtype": "numerical",
-            "computer_representation": "Float"
-        },
-        "income": {
-            "sdtype": "numerical",
-            "computer_representation": "Float"
-        },
-        "std_income": {
-            "sdtype": "numerical",
-            "computer_representation": "Float"
-        },
-        "last_income": {
-            "sdtype": "numerical",
-            "computer_representation": "Float"
-        },
-        "expenses": {
-            "sdtype": "numerical",
-            "computer_representation": "Float"
-        },
-        "std_expenses": {
-            "sdtype": "numerical",
-            "computer_representation": "Float"
-        },
-        "last_expenses": {
-            "sdtype": "numerical",
-            "computer_representation": "Float"
-        },
-        "insurance": {
-            "sdtype": "numerical",
-            "computer_representation": "Int64"
-        },
-        "household": {
-            "sdtype": "numerical",
-            "computer_representation": "Int64"
-        },
-        "sanctions": {
-            "sdtype": "numerical",
-            "computer_representation": "Int64"
-        },
-        "card": {
-            "sdtype": "numerical",
-            "computer_representation": "Int64"
-        },
-        "gender": {
-            "sdtype": "numerical",
-            "computer_representation": "Int64"
-        },
-        "frequency": {
-            "sdtype": "numerical",
-            "computer_representation": "Int64"
-        },
-        "region": {
-            "sdtype": "numerical",
-            "computer_representation": "Int64"
-        },
-        "age": {
-            "sdtype": "numerical",
-            "computer_representation": "Float"
-        },
-        "relocation": {
-            "sdtype": "numerical",
-            "computer_representation": "Int64"
-        },
-        "account": {
-            "sdtype": "numerical",
-            "computer_representation": "Float"
+    "tables": {
+        "table": {
+            "primary_key": "account_id",
+            "columns": {
+                "account_id": {
+                    "sdtype": "id"
+                },
+                "amount": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Int64"
+                },
+                "duration": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Int64"
+                },
+                "status": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Int64"
+                },
+                "balance": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "min_balance": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "std_balance": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "max_balance": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "last_balance": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "credits": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "income": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "std_income": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "last_income": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "expenses": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "std_expenses": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "last_expenses": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "sanctions": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Int64"
+                },
+                "card": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Int64"
+                },
+                "gender": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Int64"
+                },
+                "frequency": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Int64"
+                },
+                "region": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Int64"
+                },
+                "age": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Int64"
+                },
+                "relocation": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Int64"
+                },
+                "account": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Int64"
+                }
+            }
         }
     },
-    "METADATA_SPEC_VERSION": "SINGLE_TABLE_V1"
+    "relationships": [],
+    "METADATA_SPEC_VERSION": "V1"
 }
